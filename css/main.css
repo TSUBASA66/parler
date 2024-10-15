@@ -1,0 +1,779 @@
+@charset "UTF-8";
+/*==================================================
+ふわっ
+===================================*/
+.img_ad {
+  position: absolute !important;
+}
+
+.fv-wrap > span {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html {
+  font-size: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.dpflex {
+  display: flex;
+}
+
+#center {
+  margin: 0 auto;
+}
+
+#al-c {
+  text-align: center;
+}
+
+.txt_small {
+  font-size: 15px;
+}
+
+.purple {
+  color: #947FD6;
+}
+
+.question {
+  width: 17%;
+}
+
+.worries p {
+  font-size: 2.5em;
+}
+
+.triangle {
+  position: absolute;
+  top: -0.05%;
+  left: 46%;
+  height: 20px;
+  width: 40px;
+  -webkit-clip-path: polygon(0% 0, 100% 0%, 50% 100%);
+          clip-path: polygon(0% 0, 100% 0%, 50% 100%);
+  background-color: #fff;
+}
+
+.custom-shape-divider-bottom-1708079959 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708079959 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 6.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-bottom-1708079959 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.lparea-content {
+  overflow: hidden;
+  position: relative;
+}
+.lparea-content .mv_wrapper {
+  position: relative;
+  margin-top: 5%;
+}
+.lparea-content .mv_wrapper .video {
+  position: relative;
+}
+.lparea-content .mv_wrapper .video-1 {
+  top: 22%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.lparea-content .mv_wrapper .video-1 .video_cont {
+  width: 90%;
+  margin: 0 auto;
+}
+.lparea-content .mv_wrapper .video-2 {
+  top: 47%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.lparea-content .mv_wrapper .video-2 .video_cont {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.area01 {
+  margin-top: 61.5%;
+}
+.area01 .video {
+  position: relative;
+}
+.area01 .video-1 {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 1.5%;
+}
+.area01 .video-1 .video_cont {
+  width: 90%;
+  margin: 0 auto;
+}
+.area01 .video-2 {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 29%;
+}
+.area01 .video-2 .video_cont {
+  width: 90%;
+  margin: 0 auto;
+}
+.area01 .video-3 {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 65.5%;
+}
+.area01 .video-3 .video_cont {
+  width: 92%;
+  margin: 0 auto;
+}
+.area01 .lparea-content_inner-btnbox {
+  margin-top: 63%;
+}
+.area01 .questions {
+  width: 100%;
+  margin-top: 10%;
+}
+.area01 .quiz .quiz01 {
+  margin-top: 7%;
+}
+.area01 .quiz .quiz02 {
+  margin-top: 5.6%;
+}
+.area01 .videos {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+.area01 .videos .video {
+  width: 48%;
+  padding-bottom: 1%;
+}
+.area01 .videos .video:nth-of-type(3) {
+  padding-bottom: 0;
+}
+.area01 .videos .video:nth-of-type(4) {
+  padding-bottom: 0;
+}
+
+.area02 {
+  margin-top: 2.5%;
+}
+.area02 .confidence .arrow {
+  display: block;
+  width: 110px;
+  margin: 0 auto;
+}
+.area02 .confidence .answer {
+  margin-top: 5.25vw;
+}
+.area02 .confidence .img01 {
+  margin-top: 35px;
+}
+.area02 .confidence .limit {
+  margin-top: 30px;
+}
+.area02 .confidence .img02 {
+  margin-top: -2px;
+}
+.area02 .confidence .cellight {
+  margin-top: 10px;
+}
+.area02 .confidence .area02--box {
+  margin-top: 20px;
+}
+
+.area03 {
+  margin-top: 2.5%;
+}
+.area03 .contents .img01 {
+  margin-top: 30px;
+}
+.area03 .contents .shop {
+  margin-top: 20px;
+}
+.area03 .contents .area03--box {
+  margin-top: 20px;
+}
+.area03 .contents .img03 {
+  margin-top: 10px;
+}
+.area03 .contents .four {
+  margin-top: 20px;
+}
+
+.area04 {
+  margin-top: 30px;
+}
+.area04 .counseling {
+  margin-top: 20px;
+}
+.area04 .area04--box {
+  margin-top: 20px;
+}
+
+.area05 {
+  margin-top: 5.5%;
+}
+.area05 .fullcourse {
+  margin-top: 20px;
+}
+.area05 .maru {
+  margin-top: 20px;
+}
+.area05 .img02 {
+  margin-top: 10px;
+}
+.area05 .ctaarea {
+  position: relative;
+  margin-top: 40px;
+}
+.area05 .ctaarea-02 {
+  margin-top: 20px;
+}
+.area05 .ctaarea .ctabtn {
+  position: absolute;
+  width: 75%;
+  bottom: 4%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.area05 .img03 {
+  margin-top: 10px;
+}
+.area05 .fullcourse {
+  margin-top: 20px;
+}
+.area05 .img04 {
+  margin-top: 10px;
+}
+.area05 .img05 {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.area05 .img06 {
+  width: 85%;
+  margin: 30px auto 10px;
+}
+.area05 .img07 {
+  width: 70%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.area05 .img08 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.area05 .img09 {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.area05 .cta {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 6%;
+  margin-bottom: 8%;
+}
+@media screen and (max-width: 800px) {
+  .area05 .cta {
+    font-size: 6vw;
+  }
+}
+.area05 .cta a {
+  font-family: "Noto Sans JP 700";
+  text-decoration: none;
+  color: #E2007F;
+  border-bottom: 2px solid #E2007F;
+}
+.area05 .cancel {
+  position: relative;
+  margin-top: 2.5%;
+}
+.area05 .cancel .canceltxt {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  margin-top: 8%;
+  text-align: center;
+  font-weight: 600;
+}
+.area05 .cancel .canceltxt .txt {
+  position: relative;
+  z-index: 1;
+  font-size: 52px;
+  color: #FFEF00;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .area05 .cancel .canceltxt .txt {
+    font-size: 7vw;
+  }
+}
+.area05 .cancel .canceltxt .txt:after, .area05 .cancel .canceltxt .txt:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #FFEF00;
+  z-index: -1;
+  transition: all 0.8s;
+}
+.area05 .cancel .canceltxt .txt:before {
+  bottom: -5px;
+}
+.area05 .cancel .canceltxt .txt:after {
+  bottom: -10px;
+}
+.area05 .cancel .canceltxt .txt.isActive:before {
+  width: 100%;
+}
+.area05 .cancel .canceltxt .txt.isActive:after {
+  width: 100%;
+}
+.area05 .cancel .canceltxt .txt .attention {
+  padding: 0 10px;
+}
+.area05 .video_cont02 {
+  margin-top: -2px;
+}
+.area05 .video_cont04 {
+  margin-top: 35px;
+}
+.area05 .calltxt {
+  margin-top: 8.5%;
+}
+.area05 .servedxt {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 8.5%;
+}
+
+.area06 .video {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.area06 .video .sukkiri {
+  width: 60%;
+  top: 15%;
+  right: 2.5%;
+}
+.area06 .kuchikomi {
+  margin-top: 12%;
+}
+.area06 .popular {
+  margin-top: 12%;
+}
+.area06 .ctaarea {
+  position: relative;
+  margin-top: 35px;
+}
+.area06 .ctaarea .ctabtn {
+  position: absolute;
+  width: 80%;
+  bottom: 2.5%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.area06 .warning {
+  position: relative;
+  text-align: center;
+  margin-top: 5%;
+}
+.area06 .warning .txt {
+  position: absolute;
+  color: #333;
+  top: 27.5%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 80%;
+  animation: flash 1s linear infinite;
+}
+
+.area07 .ctaarea {
+  position: relative;
+}
+.area07 .ctaarea .ctabtn {
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translate(0px, -5%);
+}
+
+.shops .areashop--box {
+  margin-top: 40px;
+}
+.shops .areashop--box__shopname {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 8.5%;
+}
+.shops .areashop--box--contents {
+  text-align: center;
+  margin: 2% 0 5% 0;
+  font-size: 28px;
+}
+@media screen and (max-width: 800px) {
+  .shops .areashop--box--contents {
+    font-size: 3.5vw;
+  }
+}
+.shops .areashop--box--contents__prefecture {
+  display: flex;
+  align-items: center; /* 垂直中心 */
+  justify-content: center; /* 水平中心 */
+  margin-bottom: 2.5%;
+}
+.shops .areashop--box--contents__prefecture:before, .shops .areashop--box--contents__prefecture:after {
+  border-top: 2px solid #E8609C;
+  content: "";
+  width: 4em;
+}
+.shops .areashop--box--contents__prefecture:before {
+  margin-right: 1em; /* 文字の右隣 */
+}
+.shops .areashop--box--contents__prefecture:after {
+  margin-left: 1em; /* 文字の左隣 */
+}
+.shops .areashop--box--contents__prefecture__shopttl {
+  background: #E8609C;
+  background: linear-gradient(to right, #E595AC, #BDA4E8);
+  color: #fff;
+  margin-bottom: 2%;
+  padding: 5px 0;
+}
+.shops .areashop--box--contents__prefecture__shopname {
+  text-align: left;
+  color: #E8609C;
+  font-weight: bold;
+}
+.shops .areashop--box--contents__prefecture__address {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+#area2, #area3, #area4, #area5, #area6, #area7, .shops, .order {
+  display: block;
+}
+
+#area2.active, #area3.active, #area4.active, #area5.active, #area6.active, #area7.active, #shops.active, #order.active {
+  display: block;
+}
+
+.order {
+  margin-bottom: 10%;
+}
+.order a {
+  color: #E9609D;
+}
+.order p {
+  font-size: 32px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 800px) {
+  .order p {
+    font-size: 4vw;
+  }
+}
+
+.nextbtn:hover, .nextbtn02:hover {
+  opacity: 0.7;
+}
+
+.btn_active, .btn_active02-1, .btn_active02-2, .btn_active03 {
+  display: inline-block;
+  margin-bottom: 4%;
+}
+.btn_active:hover, .btn_active02-1:hover, .btn_active02-2:hover, .btn_active03:hover {
+  opacity: 0.7;
+}
+.btn_active .check, .btn_active02-1 .check, .btn_active02-2 .check, .btn_active03 .check {
+  display: none;
+}
+.btn_active.active .notcheck, .btn_active02-1.active .notcheck, .btn_active02-2.active .notcheck, .btn_active03.active .notcheck {
+  display: none;
+}
+.btn_active.active .check, .btn_active02-1.active .check, .btn_active02-2.active .check, .btn_active03.active .check {
+  display: block;
+}
+.btn_active.active01 .notcheck, .btn_active02-1.active01 .notcheck, .btn_active02-2.active01 .notcheck, .btn_active03.active01 .notcheck {
+  display: none;
+}
+.btn_active.active01 .check, .btn_active02-1.active01 .check, .btn_active02-2.active01 .check, .btn_active03.active01 .check {
+  display: block;
+}
+
+.btn_active02-2:nth-of-type(5) {
+  margin-bottom: 0 !important;
+}
+
+.btn_active02-1:nth-of-type(2) {
+  margin-bottom: 0 !important;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10%;
+}
+footer .footer_nav {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  padding-bottom: 3%;
+}
+@media screen and (max-width: 800px) {
+  footer .footer_nav {
+    font-size: 3.5vw;
+  }
+}
+footer .footer_nav a {
+  text-decoration: none;
+}
+footer .footer_nav li {
+  padding: 0 1.25%;
+}
+footer .footer_nav li:nth-child(1) {
+  border-right: 1px solid #000;
+}
+
+.copyrights {
+  font-size: 2rem;
+  padding: 15px 0;
+  text-align: center;
+  background: #E9609D;
+  color: #fff;
+  font-family: "Noto Sans JP 700";
+}
+@media screen and (max-width: 800px) {
+  .copyrights {
+    font-size: 2.5vw;
+    padding: 1.8vw 0;
+  }
+}
+
+/* fadeUp */
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeUpTrigger {
+  opacity: 0;
+}
+
+.anim-poyo {
+  animation-name: poyopoyo;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+  display: inline-block;
+}
+
+@keyframes poyopoyo {
+  0%, 40%, 60%, 80% {
+    transform: scale(1);
+  }
+  50%, 70% {
+    transform: scale(0.95);
+  }
+}
+.anim-round {
+  animation-name: anim_r;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim_r {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.anim_stretch {
+  animation-name: stretch;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes stretch {
+  0% {
+    transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+  }
+  20% {
+    transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+  }
+  30% {
+    transform: translate(4px, 4px) scale(1, 1.2) skew(2deg, 2deg);
+  }
+  40% {
+    transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+  }
+  100% {
+    transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+  }
+}
+
+.anim_roll {
+  animation-name: roll;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+.anim_poyooon {
+  animation: poyooon 1.2s infinite;
+}
+
+@keyframes poyooon {
+  0% {
+    transform: scale(1, 1) translate(0%, 0%);
+  }
+  15% {
+    transform: scale(0.9, 0.9) translate(0%, 5%);
+  }
+  30% {
+    transform: scale(1.3, 0.8) translate(0%, 10%);
+  }
+  50% {
+    transform: scale(0.8, 1.3) translate(0%, -10%);
+  }
+  70% {
+    transform: scale(1.1, 0.9) translate(0%, 5%);
+  }
+  100% {
+    transform: scale(1, 1) translate(0%, 0%);
+  }
+}
+.kira::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10%;
+  left: -20%;
+  width: 20px;
+  height: 100%;
+  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0) 0%);
+  transform: translateX(-100%);
+  z-index: 10;
+  transform: scale(1.2) rotate(330deg);
+  animation-name: kira;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kira {
+  0% {
+    left: -40%;
+  }
+  10% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.anim_pikopiko {
+  animation: pikopiko 1s steps(2, start) infinite;
+}
+
+@keyframes pikopiko {
+  0% {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+.blinking {
+  animation: blink 0.5s ease-in-out infinite alternate;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=main.css.map */

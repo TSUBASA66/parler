@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+/* 共通 */
+
+body{
+  font-family: "Noto Sans JP 400";
+  background-color: #F2F2F2;
+}
+*{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100%;
+}
+
+img,video{
+  width: 100%;
+}
+
+a{
+  color: #000;
+  &:hover{
+    opacity: .7;
+  }
+}
+
+@font-face {
+  src: url("../fonts/NotoSansJP-Regular400.woff") format("woff");
+  font-family: "Noto Sans JP 400";
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("../fonts/NotoSansJP-Bold700.woff") format("woff");
+  font-family: "Noto Sans JP 700";
+  font-style: normal;
+  font-display: swap;
+}
+
+.u-sppc{
+  display: none;
+  @media screen and (max-width: 1080px) {
+    display: block;
+}
+}
+
+.u-pc {
+  display: block;
+@media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+
+.u-sptab{
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: block;
+}
+}
+
+.u-tab {
+  display: block;
+@media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.u-Ban{
+  img{
+    pointer-events: none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-touch-callout:none;
+    -moz-user-select:none;
+    // touch-callout:none;
+    user-select:none;
+  }
+}
+
+.u-sp_u{
+  display: inline-block;
+}
+
+.u-center{
+  text-align: center;
+}
+
+.u-center-m{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.u-right{
+  text-align: right;
+}
+
+/* パディング */
+.u-pdall20{
+  padding: 2%;
+}
+.u-p10{
+  padding: 10px 0px;
+}
+
+.u-p05{
+  padding: 5px 10px;
+}
+
+.u-pb20{
+  padding-bottom: 2.5%;
+}
+
+.u-mb20{
+  margin-bottom: 2.5%;
+}
+
+.u-pb60{
+  padding-bottom: 7.5%;
+}
+
+.u-pb40{
+  padding-bottom: 5%;
+}
+
+.u-pb50{
+  padding-bottom: 6.25%;
+}
+
+.u-pb100{
+  padding-bottom: 12.5%;
+}
+
+.u-pt100{
+  padding-top: 12.5%;
+}
+
+
+// フローティング
+
+#floating{
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: 800px;
+  z-index: 99;
+  height: 110px;
+  @media screen and (max-width: 800px) {
+    height: 13.4vw;
+      width: 100%;
+  }
+  @media screen and (max-width: 767px) {
+    height: 16.6vw;
+}
+  .floating_area{
+    width: 800px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 800px) {
+      width: 100%;
+  }
+  }
+  .text,.btn{
+    display: inline-block;
+    // width: 50%;
+    // img{
+    //   height: 50px;
+    //   width: auto;
+    // }
+  }
+  // .btn{
+  //   background-color: #fff;
+  //   padding: 20px 10px 20px 15px;
+  //   border-radius: 10px;
+  //   position: relative;
+  //   text-decoration: none;
+  //   overflow: hidden;
+  //   transition: 0.2s;
+  //   @media screen and (max-width: 800px) {
+  //     padding: 2.5vw 1.25vw 2.5vw 1.875vw;
+  //     border-radius: 1.25vw;
+  // }
+  // }
+}
+
+
+/* 共通 */
+.u-wi800,.u-wi92, .u-wi80{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-wi800{
+  width: 800px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  @media screen and (max-width: 830px) {
+      width: 100%;
+  }
+}
+.u-wi80{
+  width: 80%;
+}
+.u-wi92{
+  width: 92%;
+}
+
+.shadow01{
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.2));
+}
+@font-face {
+  font-family: "A P-OTF あおとゴシック StdN";
+  src: url("../fonts/AP-OTF-AotoGothicStdN-Bold.otf") format("opentype");
+  src: url("../fonts/AP-OTF-AotoGothicStdN-DeBold.otf") format("opentype");
+  src: url("../fonts/AP-OTF-AotoGothicStdN-ExBold.otf") format("opentype");
+  src: url("../fonts/AP-OTF-AotoGothicStdN-Light.otf") format("opentype");
+  src: url("../fonts/AP-OTF-AotoGothicStdN-Medium.otf") format("opentype");
+  src: url("../fonts/AP-OTF-AotoGothicStdN-Regular.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}

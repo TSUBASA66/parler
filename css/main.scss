@@ -1,0 +1,821 @@
+@charset "UTF-8";
+@use "mixin" as m;
+
+
+/*==================================================
+ふわっ
+===================================*/
+// 共通
+.img_ad{
+    position: absolute !important;
+}
+.fv-wrap > span{
+    display: block;
+}
+img{
+    max-width: 100%;
+height: auto;
+display: block;
+}
+html{
+    font-size: 10px;
+}
+//空間
+.mt-20{
+    margin-top: 20px !important;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+//フレックス表示
+.dpflex{
+    display: flex;
+}
+// センター表示
+#center{
+    margin: 0 auto;
+}
+#al-c{
+    text-align: center;
+}
+
+//文字
+#sampleMONOfont{
+    // font-family: ;
+}
+.txt_small{
+    font-size: 15px;
+}
+.purple{
+    color: #947FD6;
+}
+//クエスチョンマーク
+.question{
+    width: 17%;
+}
+.worries{
+    p{
+        font-size: 2.5em;
+    }
+}
+//三角
+.triangle {
+    position: absolute;
+    top: -0.05%;
+    left: 46%;
+    height: 20px;
+    width: 40px;
+    clip-path: polygon(0% 0, 100% 0%, 50% 100%);
+    background-color: #fff;
+}
+
+
+// なみ svg
+.custom-shape-divider-bottom-1708079959 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708079959 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 6.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1708079959 .shape-fill {
+    fill: #FFFFFF;
+}
+// 共通 //
+
+
+.lparea-content{
+    overflow: hidden;
+    position: relative;
+    //
+    .mv_wrapper{
+        position: relative;
+        margin-top: 5%;
+        .video{
+            position: relative;
+            &-1{
+                top: 22%;
+                margin: 0 auto;
+            left: 0;
+            right: 0;
+                .video_cont{
+                    width: 90%;
+                margin: 0 auto;
+                }
+            }
+            &-2{
+                top: 47%;
+                margin: 0 auto;
+            left: 0;
+            right: 0;
+                .video_cont{
+                    width: 100%;
+                margin: 0 auto;
+                }
+            }
+        }
+}
+}
+//
+
+.area01{
+    margin-top: 61.5%;
+    .bg{}
+    .video{
+        position: relative;
+        &-1{
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 1.5%;
+            .video_cont{
+                width: 90%;
+            margin: 0 auto;
+            }
+        }
+        &-2{
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 29%;
+            .video_cont{
+                width: 90%;
+            margin: 0 auto;
+            }
+        }
+        &-3{
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 65.5%;
+            .video_cont{
+                width: 92%;
+            margin: 0 auto;
+            }
+        }
+    }
+    .lparea-content_inner-btnbox{
+        margin-top: 63%;
+    }
+    .questions{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .quiz{
+        .quiz01{
+            margin-top: 7%;
+        }
+        .quiz02{
+            margin-top: 5.6%;
+        }
+    }
+    .videos{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 32px;
+        .video{
+            width: 48%;
+            padding-bottom: 1%;
+            &:nth-of-type(3) {
+                padding-bottom: 0;
+            }
+            &:nth-of-type(4) {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+//
+
+.area02{
+    margin-top: 2.5%;
+.confidence{
+    .arrow{
+        display: block;
+        width: 110px;
+        margin: 0 auto;
+    }
+    .answer{
+        margin-top: 5.25vw;
+    }
+    .img01{
+        margin-top: 35px;
+    }
+    .limit{
+        margin-top: 30px;
+    }
+    .img02{
+        margin-top: -2px;
+    }
+    .cellight{
+        margin-top: 10px;
+    }
+    .area02--box{
+        margin-top: 20px;
+    }
+}
+}
+//
+
+.area03{
+    margin-top: 2.5%;
+    .contents{
+        .img01{
+            margin-top: 30px;
+        }
+        .shop{
+            margin-top: 20px;
+        }
+        .area03--box{
+            margin-top: 20px;
+        }
+        .img03{
+            margin-top: 10px;
+        }
+        .four{
+            margin-top: 20px;
+        }
+    }
+}
+
+
+//
+
+.area04{
+    margin-top: 30px;
+    .img01{
+
+    }
+    .counseling{
+        margin-top: 20px;
+    }
+    .area04--box{
+        margin-top: 20px;
+    }
+}
+//
+
+.area05{
+    // margin-top: 20px;
+    margin-top: 5.5%;
+    .fullcourse{
+        margin-top: 20px;
+    }
+    .maru{
+        margin-top: 20px;
+    }
+    .img02{
+        margin-top: 10px;
+    }
+    .ctaarea{
+        position: relative;
+        margin-top: 40px;
+        &-02{
+            margin-top: 20px;
+        }
+        .ctabtn{
+            position: absolute;
+            width: 75%;
+            bottom: 4%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    .img03{
+        margin-top: 10px;
+    }
+    .fullcourse{
+        margin-top: 20px;
+    }
+    .img04{
+        margin-top: 10px;
+    }
+    .img05{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .img06{
+        width: 85%;
+        margin: 30px auto 10px;
+    }
+    .img07{
+        width: 70%;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .img08{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .img09{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .cta{
+        text-align: center;
+        font-size: 48px;
+        margin-top: 6%;
+        margin-bottom: 8%;
+        @include m.mq(tabmin){
+            font-size: 6vw;
+        }
+        a{
+            font-family: "Noto Sans JP 700";
+            text-decoration: none;
+            color: #E2007F;
+            border-bottom: 2px solid #E2007F; 
+        }
+    }
+    .cancel{
+        position: relative;
+        margin-top: 2.5%;
+        .canceltxt{
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            margin-top: 8%;
+            text-align: center;
+            font-weight: 600;
+            .txt{
+                position: relative;
+                z-index: 1;
+                font-size: 52px;
+                @include m.mq(tabmin){
+                    font-size: 7vw;
+                }
+                color: #FFEF00;
+                text-align: center;
+                &:after, &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background: #FFEF00;
+                z-index: -1;
+                transition: all 0.8s;
+                }
+                &:before{
+                    bottom: -5px;
+                }
+                &:after {
+                bottom: -10px;
+                }
+                &.isActive:before {
+                    width: 100%;
+                }
+                &.isActive:after {
+                width: 100%;
+                }
+                .attention{
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+    .video_cont02{
+        margin-top: -2px;
+    }
+    .video_cont04{
+        margin-top: 35px;
+    }
+    .calltxt{
+        margin-top: 8.5%;
+    }
+    .servedxt{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 8.5%;
+    }
+}
+//
+
+.area06{
+    .video{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        .video_cont{
+        }
+        .sukkiri{
+            width: 60%;
+            top: 15%;
+            right: 2.5%;
+        }
+    }
+    .kuchikomi{
+        margin-top: 12%;
+    }
+    .popular{
+        margin-top: 12%;
+    }
+    .ctaarea{
+        position: relative;
+        margin-top: 35px;
+        .ctabtn{
+            position: absolute;
+            width: 80%;
+            bottom: 2.5%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    .warning{
+        position: relative;
+        text-align: center;
+        margin-top: 5%;
+        .txt{
+            position: absolute;
+            color: #333;
+            top: 27.5%;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            width: 80%;
+            animation: flash 1s linear infinite;
+        }
+    }
+}
+//
+
+.area07{
+    .ctaarea{
+        position: relative;
+        .ctabtn{
+            position: absolute;
+            width: 80%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            transform: translate(0px, -5%);
+        }
+    }
+}
+//
+.shops{
+    .areashop--box{
+        // margin-top: 12.5%;
+        margin-top: 40px;
+        &__shopname{
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 8.5%;
+        }
+        &--contents{
+            text-align: center;
+            margin: 2% 0 5% 0;
+            font-size: 28px;
+            @include m.mq(tabmin) {
+                font-size: 3.5vw;
+            }
+            &__prefecture{
+                display: flex;
+                align-items: center; /* 垂直中心 */
+                justify-content: center; /* 水平中心 */
+                margin-bottom: 2.5%;
+                &:before, &:after{
+                    border-top: 2px solid #E8609C;
+                    content: "";
+                    width: 4em;
+                }
+                &:before{
+                    margin-right: 1em; /* 文字の右隣 */
+                }
+                &:after{
+                    margin-left: 1em; /* 文字の左隣 */
+                }
+                &__shopttl{
+                    background: #E8609C;
+                    background: linear-gradient(to right, #E595AC, #BDA4E8);
+                    color: #fff;
+                    margin-bottom: 2%;
+                    padding: 5px 0;
+                }
+                &__shopname{
+                    text-align: left;
+                    color: #E8609C;
+                    font-weight: bold;
+                }
+                &__address{
+                    margin-bottom: 15px;
+                    margin-top: 5px;
+                    text-align: left;
+                    letter-spacing: .02em;
+                    line-height: calc(21 / 14);
+                }
+            }
+        }
+    }
+}
+#area2, #area3, #area4, #area5, #area6, #area7, .shops, .order{
+    display: block;
+}
+#area2.active, #area3.active, #area4.active, #area5.active, #area6.active, #area7.active, #shops.active, #order.active{
+    display: block;
+}
+.order{
+    margin-bottom: 10%;
+    a{
+        color: #E9609D;
+    }
+    p{
+        font-size: 32px;
+        line-height: 1.7;
+        letter-spacing: 0.02em;
+        @include m.mq(tabmin){
+            font-size: 4vw;
+        }
+    }
+
+}
+
+
+.nextbtn,.nextbtn02{
+    &:hover{
+        opacity: .7;
+    }
+}
+
+.btn_active,.btn_active02-1,.btn_active02-2,.btn_active03{
+    display: inline-block;
+    margin-bottom: 4%;
+    &:hover{
+        opacity: .7;
+    }
+    .check{
+        display: none;
+    }
+    &.active{
+        .notcheck{
+            display: none;
+        }
+        .check{
+            display: block;
+        }
+    }
+    &.active01{
+        .notcheck{
+            display: none;
+        }
+        .check{
+            display: block;
+        }
+    }
+}
+.btn_active02-2{
+    &:nth-of-type(5){
+margin-bottom: 0 !important;
+    }
+}
+.btn_active02-1{
+    &:nth-of-type(2){
+        margin-bottom: 0 !important;
+    }
+}
+
+footer{
+    text-align: center;
+    padding-top: 10%;
+    .footer_nav{
+        display: flex;
+        justify-content: center;
+        font-size: 28px;
+        padding-bottom: 3%;
+        @media screen and (max-width: 800px) {
+            font-size: 3.5vw;
+        }
+        a{
+            text-decoration:none;
+        }
+        li{
+            padding: 0 1.25%;
+            &:nth-child(1){
+                border-right: 1px solid #000;
+            }
+        }
+    }
+}
+
+.copyrights{
+    font-size: 2rem;
+    padding: 15px 0;
+    text-align: center;
+    background: #E9609D;
+    color: #fff;
+    font-family: "Noto Sans JP 700";
+    @media screen and (max-width: 800px) {
+        font-size: 2.5vw;
+        padding: 1.8vw 0;
+    }
+}
+/* fadeUp */
+
+.fadeUp{
+    animation-name:fadeUpAnime;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeUpAnime{
+      from {
+        opacity: 0;
+      transform: translateY(100px);
+      }
+    
+      to {
+        opacity: 1;
+      transform: translateY(0);
+      }
+    }
+    
+    
+    .fadeUpTrigger{
+        opacity: 0;
+    }
+
+//ぽよぽよ
+.anim-poyo{
+    animation-name: poyopoyo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    display: inline-block;
+}
+
+@keyframes poyopoyo {
+    0%, 40%, 60%, 80% {
+        transform: scale(1);
+    }
+    50%, 70% {
+        transform: scale(0.95);
+    }
+}
+
+//くるくる　
+.anim-round{
+    animation-name: anim_r;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes anim_r {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  //伸びる　
+  .anim_stretch{
+    animation-name: stretch;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+@keyframes stretch{
+    0% {
+        transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+    }
+    20% {
+        transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+    }
+    30% {
+        transform: translate(4px, 4px) scale(1.0, 1.2) skew(2deg, 2deg);
+    }
+    40% {
+        transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+    }
+    100% {
+        transform: translate(0, 0) scale(1, 1) skew(0deg, 0deg);
+    }
+}
+  }
+
+  //ふりふり
+.anim_roll{
+    animation-name: roll;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+  @keyframes roll{
+    0% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    
+    100% {
+        transform: rotate(-2deg);
+    }
+  }
+
+
+  .anim_poyooon{
+    animation: poyooon 1.2s infinite;
+  }
+  
+  @keyframes poyooon {
+    0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+    15%  { transform: scale(0.9, 0.9) translate(0%, 5%); }
+    30%  { transform: scale(1.3, 0.8) translate(0%, 10%); }
+    50%  { transform: scale(0.8, 1.3) translate(0%, -10%); }
+    70%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+    100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  }
+
+.kira::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10%;
+    left: -20%;
+    width: 20px;
+    height: 100%;
+    background-image: linear-gradient( 100deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, .5) 100%, rgba(255, 255, 255, 0) 0%);
+    transform: translateX(-100%);
+    z-index: 10;
+    transform: scale(1.2) rotate(330deg);
+    animation-name: kira;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.kira{
+    @keyframes kira{
+        0% {
+            left: -40%;
+        }
+        10% {
+            left: 100%;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+}
+@keyframes flash {
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+}
+
+
+.anim_pikopiko {
+  animation: pikopiko 1s steps(2, start) infinite;
+}
+
+@keyframes pikopiko {
+  0% {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
+.blinking{
+	-webkit-animation:blink .5s ease-in-out infinite alternate;
+    -moz-animation:blink .5s ease-in-out infinite alternate;
+    animation:blink .5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
