@@ -135,6 +135,7 @@ html {
 .area01 .video-1 .video_cont {
   width: 90%;
   margin: 0 auto;
+  margin-top: 10px;
 }
 .area01 .video-2 {
   margin: 0 auto;
@@ -212,11 +213,25 @@ html {
   margin-top: 20px;
 }
 
+#area3 .add_img01 {
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  #area3 .add_img01 {
+    margin-top: 2.5vw;
+  }
+}
+
 .area03 {
   margin-top: 2.5%;
 }
 .area03 .contents .img01 {
-  margin-top: 30px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 800px) {
+  .area03 .contents .img01 {
+    margin-top: 8.75vw;
+  }
 }
 .area03 .contents .shop {
   margin-top: 20px;
