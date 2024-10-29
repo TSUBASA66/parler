@@ -94,7 +94,6 @@ html {
 }
 .lparea-content .mv_wrapper {
   position: relative;
-  margin-top: 5%;
 }
 .lparea-content .mv_wrapper .video {
   position: relative;
@@ -214,11 +213,11 @@ html {
 }
 
 #area3 .add_img01 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 @media screen and (max-width: 800px) {
   #area3 .add_img01 {
-    margin-top: 2.5vw;
+    margin-top: 3.75vw;
   }
 }
 
@@ -234,26 +233,56 @@ html {
   }
 }
 .area03 .contents .shop {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+  .area03 .contents .shop {
+    margin-top: 3.75vw;
+  }
 }
 .area03 .contents .area03--box {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+  .area03 .contents .area03--box {
+    margin-top: 3.75vw;
+  }
 }
 .area03 .contents .img03 {
   margin-top: 10px;
 }
+@media screen and (max-width: 800px) {
+  .area03 .contents .img03 {
+    margin-top: 1.25vw;
+  }
+}
 .area03 .contents .four {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+  .area03 .contents .four {
+    margin-top: 3.75vw;
+  }
 }
 
 .area04 {
   margin-top: 30px;
 }
 .area04 .counseling {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+  .area04 .counseling {
+    margin-top: 3.75vw;
+  }
 }
 .area04 .area04--box {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 800px) {
+  .area04 .area04--box {
+    margin-top: 3.75vw;
+  }
 }
 
 .area05 {

@@ -100,7 +100,7 @@ html{
     //
     .mv_wrapper{
         position: relative;
-        margin-top: 5%;
+        // margin-top: 5%;
         .video{
             position: relative;
             &-1{
@@ -229,9 +229,9 @@ html{
 //
 #area3{
     .add_img01{
-        margin-top: 20px;
+        margin-top: 30px;
         @media screen and (max-width: 800px) {
-            margin-top: 2.5vw;
+            margin-top: 3.75vw;
         }
     }
 }
@@ -245,16 +245,28 @@ html{
             }
         }
         .shop{
-            margin-top: 20px;
+            margin-top: 30px;
+            @media screen and (max-width: 800px) {
+                margin-top: 3.75vw;
+            }
         }
         .area03--box{
-            margin-top: 20px;
+            margin-top: 30px;
+            @media screen and (max-width: 800px) {
+                margin-top: 3.75vw;
+            }
         }
         .img03{
             margin-top: 10px;
+            @media screen and (max-width: 800px) {
+                margin-top: 1.25vw;
+            }
         }
         .four{
-            margin-top: 20px;
+            margin-top: 30px;
+            @media screen and (max-width: 800px) {
+                margin-top: 3.75vw;
+            }
         }
     }
 }
@@ -268,10 +280,16 @@ html{
 
     }
     .counseling{
-        margin-top: 20px;
+        margin-top: 30px;
+        @media screen and (max-width: 800px) {
+            margin-top: 3.75vw;
+        }
     }
     .area04--box{
-        margin-top: 20px;
+        margin-top: 30px;
+        @media screen and (max-width: 800px) {
+            margin-top: 3.75vw;
+        }
     }
 }
 //
